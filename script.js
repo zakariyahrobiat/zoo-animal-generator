@@ -6,7 +6,7 @@ async function getAnimal(){
     fetchAnimal = await fetch ("https://zoo-animal-api.herokuapp.com/animals/rand")
     fetchZooAnimal = await fetchAnimal.json()
     nameContainer.innerHTML = `<p class= "name"> ${fetchZooAnimal.name} </P>` 
-   imgContainer = document.querySelector(".img-container").innerHTML =`.<img src="${fetchZooAnimal.image_link}" alt="" srcset="">`
+   imgContainer = document.querySelector(".img-container").innerHTML =`<img src="${fetchZooAnimal.image_link}" alt="" srcset="">`
  latinName = document.querySelector(".latin-name").innerHTML = `<p>Latin Name: ${fetchZooAnimal.latin_name}</p>`
  animalType = document.querySelector(".animal-type").innerHTML =`<p>Animal Type: ${fetchZooAnimal.animal_type} </p>`
 
