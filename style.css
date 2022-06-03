@@ -20,16 +20,12 @@ body{
     gap: 15px;
 }
 .header input{
-    width: 90%;
+    width: 100%;
     background-color: transparent;
     padding: 5px;
     border-color: blue;
 }
-.header i{
-    color: blue;
-    font-size: 20px;
-    padding-top: 5px;
-}
+
 .body-container{
     position: relative;
     padding: 20px 0;
