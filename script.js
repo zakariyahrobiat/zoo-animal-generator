@@ -87,10 +87,10 @@ function searchName(){
         if(isMatch){
             animalList[i].style.display ="block"
         } else{
-            animalList[i].style.display ="block"
-            animal.innerHTML = `
-            there is no ${inputValue} listed here`
-        }
+            animalList[i].style.display ="none"
+            animal.innerText = `
+            There is no ${inputValue} listed here now
+              ` }
     }
   
     }
