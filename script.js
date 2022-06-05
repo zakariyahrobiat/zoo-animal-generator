@@ -87,7 +87,8 @@ function searchName(){
         if(isMatch){
             animalList[i].style.display ="block"
         } else{
-            animalList[i].style.display ="none"
+            animalList[i].innerHTML = `
+            there is no ${inputValue} listed here`
         }
     }
   
